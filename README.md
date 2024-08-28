@@ -15,7 +15,7 @@ valuable experience in integrating various AI models and deploying applications.
 
 - Facebook's ASR for speech recognition
 - Phi-3 LLM for natural language processing
-- Facebook's TTS or speech synthesis
+- Facebook's TTS for speech synthesis
 - Gradio for application development
 
 <h2>Environments Used </h2>
