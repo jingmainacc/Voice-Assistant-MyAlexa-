@@ -13,25 +13,31 @@ valuable experience in integrating various AI models and deploying applications.
 
 <h2>Technologies Used:</h2>
 
-- Facebook's ASR for speech recognition
-- Phi-3 LLM for natural language processing
-- Facebook's TTS for speech synthesis
-- Gradio for application development
+- Facebook's Automatic Speech Recognition (ASR): For converting spoken language into text.
+- Phi-3 Large Language Model (LLM): For understanding and generating natural language responses.
+- Facebook's Text-to-Speech (TTS): For converting text responses back into spoken language.
+- Gradio: For developing the user interface and deploying the application.
+
 
 <h2>Environments Used </h2>
 
-- <b>HuggingFace Website</b> 
+- <b>Hugging Face Website: The platform where the voice assistant application is deployed, allowing users to interact with MyAlexa online.</b> 
 
 <h2>Program walk-through:</h2>
 
 <p align="center">
 <br />
-Record an Input a Question like "What is boxing?":  <br/>
+Record Input: Users can record a voice input by asking a question, such as "What is boxing?" This input is processed by the ASR model to convert the speech into text.  <br/>
+<br />
 <img src="https://imgur.com/eOtldB8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-A voice output will be generated which can answer general questions: <br/>
+<br />
+Generate Response: The recorded question is then processed by the Phi-3 LLM to generate a meaningful response based on the text input. This response is converted back into speech using the TTS model. <br/>
+<br />
 <img src="https://imgur.com/PGspHa2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+<br />
+Interaction: The user receives a spoken response to their question, demonstrating the assistant's capability to handle general queries effectively. <br/>
 
 
 <!--
